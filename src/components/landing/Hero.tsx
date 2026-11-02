@@ -1,5 +1,5 @@
 import { Lock, ShieldCheck, Star } from "lucide-react";
-import marthaAsset from "@/assets/martha-real.jpg.asset.json";
+import marthaAsset from "@/assets/martha-nursery.jpg.asset.json";
 import { OFFER } from "@/lib/offer";
 import { CtaButton, PriceLine } from "./CtaButton";
 
@@ -60,7 +60,7 @@ export function Hero() {
             alt="Martha, a smiling grandmother and gentle sleep guide, in her sunlit living room"
             width={1024}
             height={1280}
-            className="relative aspect-[4/5] w-full rounded-3xl object-cover shadow-elegant"
+            className="relative aspect-[4/5] w-full rounded-3xl object-cover object-[70%_40%] shadow-elegant"
           />
           <div className="absolute -bottom-6 left-4 right-4 rounded-2xl bg-card p-4 shadow-xl sm:left-auto sm:right-6 sm:w-72">
             <p className="text-sm font-bold text-foreground">Martha, Gentle Sleep Guide</p>
