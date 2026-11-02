@@ -9,7 +9,7 @@ export function AuthorBio() {
           <div className="mx-auto max-w-3xl">
             <Heart className="mb-6 size-10 fill-primary/15 text-primary" />
             <h2 className="text-3xl font-extrabold leading-tight sm:text-4xl">
-              Hi, I’m Martha. I’ve been where you are right now.
+              Hi, I’m Martha, founder of Martha’s Gentle Sleep. I’ve been where you are right now.
             </h2>
             <div className="mt-8 space-y-5 text-lg leading-relaxed text-muted-foreground">
               <p>
@@ -17,8 +17,9 @@ export function AuthorBio() {
                 every other mother had it figured out — except me.
               </p>
               <p>
-                For more than <strong className="text-foreground">20 years</strong>, I’ve worked as
-                an infant sleep consultant, sitting beside exhausted mothers at kitchen tables,
+                I’m 55 years old, a mother and a grandmother, and for more than{" "}
+                <strong className="text-foreground">20 years</strong> I’ve worked as a veteran infant
+                sleep consultant, sitting beside exhausted mothers at kitchen tables,
                 holding their babies, and helping them find their way back to rest.
               </p>
               <p>
@@ -30,7 +31,7 @@ export function AuthorBio() {
                 100% gentle and no-cry — and I’ve poured every bit of it into this Blueprint.
               </p>
             </div>
-            <p className="mt-8 text-xl font-bold text-primary">— With love, Martha</p>
+            <p className="mt-8 text-xl font-bold text-primary">— With love, Martha’s Gentle Sleep</p>
           </div>
         </div>
       </div>

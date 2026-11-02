@@ -27,15 +27,14 @@ export function Hero() {
           </div>
 
           <h1 className="text-4xl font-extrabold leading-[1.1] text-foreground sm:text-5xl lg:text-[3.4rem]">
-            Stop Waking Up 5 Times a Night.{" "}
-            <span className="text-primary">Help Your Baby Sleep Through</span> — Without Radical
-            Tears or Guilt.
+            <span className="text-primary">Help Your Baby Sleep Through the Night and in the Crib</span>{" "}
+            — Without Tears, Stress, or Guilt.
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
             Discover <em className="font-semibold text-foreground">{OFFER.productName}</em> — a
-            gentle, step-by-step framework created by Martha, a veteran grandmother and gentle sleep
-            guide. No harsh sleep training. Just pure, science-backed rest for your entire family.
+            gentle, step-by-step framework from Martha’s Gentle Sleep, created by a 55-year-old veteran
+            infant sleep consultant, mother, and grandmother. 100% gentle, no-cry — no harsh sleep training. Just pure, science-backed rest for your entire family.
           </p>
 
           <div className="mt-8 flex flex-col gap-4">
@@ -57,14 +56,14 @@ export function Hero() {
           <div className="absolute -inset-4 -z-0 rounded-[2.5rem] bg-sage-soft" aria-hidden />
           <img
             src={marthaAsset.url}
-            alt="Martha, a smiling grandmother and gentle sleep guide, in her sunlit living room"
+            alt="Martha of Martha’s Gentle Sleep, a smiling grandmother and gentle sleep guide, in her sunlit living room"
             width={1024}
             height={1280}
             className="relative aspect-[4/5] w-full rounded-3xl object-cover object-[70%_40%] shadow-elegant"
           />
           <div className="absolute -bottom-6 left-4 right-4 rounded-2xl bg-card p-4 shadow-xl sm:left-auto sm:right-6 sm:w-72">
-            <p className="text-sm font-bold text-foreground">Martha, Gentle Sleep Guide</p>
-            <p className="text-sm text-muted-foreground">20+ years helping families rest</p>
+            <p className="text-sm font-bold text-foreground">Martha’s Gentle Sleep</p>
+            <p className="text-sm text-muted-foreground">Infant sleep consultant, mother & grandmother</p>
           </div>
         </div>
       </div>
