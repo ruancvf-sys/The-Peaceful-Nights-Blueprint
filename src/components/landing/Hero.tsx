@@ -1,5 +1,5 @@
 import { Lock, ShieldCheck, Star } from "lucide-react";
-import marthaAsset from "@/assets/martha-nursery.jpg.asset.json";
+import marthaNight from "@/assets/martha-nursery-night.jpg";
 import { OFFER } from "@/lib/offer";
 import { CtaButton, PriceLine } from "./CtaButton";
 
@@ -27,7 +27,7 @@ export function Hero() {
           </div>
 
           <h1 className="text-4xl font-extrabold leading-[1.1] text-foreground sm:text-5xl lg:text-[3.4rem]">
-            <span className="text-primary">Help Your Baby Sleep Through the Night and in the Crib</span>{" "}
+            <span className="text-primary-bright">Help Your Baby Sleep Through the Night and in the Crib</span>{" "}
             — Without Tears, Stress, or Guilt.
           </h1>
 
@@ -42,10 +42,10 @@ export function Hero() {
             <CtaButton glow />
             <p className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-medium text-muted-foreground">
               <span className="inline-flex items-center gap-1.5">
-                <Lock className="size-4 text-primary" /> Instant Download
+                <Lock className="size-4 text-primary-bright" /> Instant Download
               </span>
               <span className="inline-flex items-center gap-1.5">
-                <ShieldCheck className="size-4 text-primary" /> {OFFER.guaranteeDays}-Day 100%
+                <ShieldCheck className="size-4 text-primary-bright" /> {OFFER.guaranteeDays}-Day 100%
                 Money-Back Guarantee
               </span>
             </p>
@@ -55,7 +55,7 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-lg lg:max-w-none">
           <div className="absolute -inset-4 -z-0 rounded-[2.5rem] bg-sage-soft" aria-hidden />
           <img
-            src={marthaAsset.url}
+            src={marthaNight}
             alt="Martha of Martha’s Gentle Sleep, a smiling grandmother and gentle sleep guide, in her sunlit living room"
             width={1024}
             height={1280}

@@ -7,7 +7,7 @@ export function AuthorBio() {
       <div className="mx-auto max-w-7xl px-5 py-20 sm:px-8 md:py-24">
         <div className="rounded-3xl bg-surface-sage p-8 shadow-sm sm:p-12 lg:p-16">
           <div className="mx-auto max-w-3xl">
-            <Heart className="mb-6 size-10 fill-primary/15 text-primary" />
+            <Heart className="mb-6 size-10 fill-primary/15 text-primary-bright" />
             <h2 className="text-3xl font-extrabold leading-tight sm:text-4xl">
               Hi, I’m Martha, founder of Martha’s Gentle Sleep. I’ve been where you are right now.
             </h2>
@@ -31,7 +31,7 @@ export function AuthorBio() {
                 100% gentle and no-cry — and I’ve poured every bit of it into this Blueprint.
               </p>
             </div>
-            <p className="mt-8 text-xl font-bold text-primary">— With love, Martha’s Gentle Sleep</p>
+            <p className="mt-8 text-xl font-bold text-primary-bright">— With love, Martha’s Gentle Sleep</p>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ export function PainPoints() {
           ))}
         </div>
         <p className="mx-auto mt-14 flex max-w-2xl items-center justify-center gap-3 text-center text-lg font-semibold text-foreground">
-          <Moon className="size-5 shrink-0 text-primary" />
+          <Moon className="size-5 shrink-0 text-primary-bright" />
           It’s not your fault — and it doesn’t have to stay this way.
         </p>
       </div>

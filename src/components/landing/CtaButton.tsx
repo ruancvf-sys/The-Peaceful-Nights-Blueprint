@@ -27,7 +27,7 @@ export function PriceLine({ className }: { className?: string }) {
       <span className="text-lg text-strike line-through decoration-2">
         {formatUSD(OFFER.originalPrice)}
       </span>
-      <span className="text-2xl font-extrabold text-primary">{formatUSD(OFFER.price)}</span>
+      <span className="text-2xl font-extrabold text-primary-bright">{formatUSD(OFFER.price)}</span>
       <span className="rounded-full bg-gold-soft px-3 py-1 text-xs font-bold uppercase tracking-wide text-gold-foreground">
         Today only
       </span>

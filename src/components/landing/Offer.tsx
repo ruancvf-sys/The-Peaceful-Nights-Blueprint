@@ -38,7 +38,7 @@ export function OfferBox() {
                 {included.map(({ item, value }) => (
                   <li key={item} className="flex items-start gap-3">
                     <span className="mt-0.5 flex size-6 shrink-0 items-center justify-center rounded-full bg-secondary">
-                      <Check className="size-4 text-primary" strokeWidth={3} />
+                      <Check className="size-4 text-primary-bright" strokeWidth={3} />
                     </span>
                     <span className="flex-1 font-medium">{item}</span>
                     {value > 0 && (
@@ -52,7 +52,7 @@ export function OfferBox() {
                   Total value{" "}
                   <span className="text-strike line-through">{formatUSD(OFFER.originalPrice)}</span>
                 </p>
-                <p className="mt-1 text-6xl font-extrabold tracking-tight text-primary">
+                <p className="mt-1 text-6xl font-extrabold tracking-tight text-primary-bright">
                   {formatUSD(OFFER.price)}
                 </p>
                 <p className="mt-1 text-sm text-muted-foreground">One-time payment • No subscription</p>
@@ -163,7 +163,7 @@ export function Footer() {
         <p className="font-bold text-foreground">{OFFER.productName}</p>
         <p>
           Support:{" "}
-          <a href={`mailto:${OFFER.supportEmail}`} className="font-medium text-primary hover:underline">
+          <a href={`mailto:${OFFER.supportEmail}`} className="font-medium text-primary-bright hover:underline">
             {OFFER.supportEmail}
           </a>
         </p>
@@ -184,7 +184,7 @@ export function StickyMobileCta() {
       <div className="flex items-center gap-3">
         <div className="shrink-0 leading-tight">
           <p className="text-xs text-strike line-through">{formatUSD(OFFER.originalPrice)}</p>
-          <p className="text-xl font-extrabold text-primary">{formatUSD(OFFER.price)}</p>
+          <p className="text-xl font-extrabold text-primary-bright">{formatUSD(OFFER.price)}</p>
         </div>
         <a
           href="#offer"

@@ -52,7 +52,7 @@ export function Inside() {
               <div className="relative mb-6 flex size-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
                 <Icon className="size-7" />
               </div>
-              <p className="relative text-xs font-bold uppercase tracking-widest text-primary">
+              <p className="relative text-xs font-bold uppercase tracking-widest text-primary-bright">
                 Pillar {i + 1}
               </p>
               <h3 className="relative mt-2 text-xl font-bold">{title}</h3>
