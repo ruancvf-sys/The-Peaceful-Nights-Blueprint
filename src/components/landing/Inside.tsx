@@ -96,7 +96,7 @@ export function Testimonials() {
   return (
     <section className="w-full bg-surface-white">
       <div className="mx-auto max-w-7xl px-5 py-20 sm:px-8 md:py-24">
-        <SectionHeading eyebrow="Real moms, real rest" title="Mothers across America are sleeping again" />
+        <SectionHeading eyebrow="Real moms, real rest" title="Mothers around the world are sleeping again" />
         <div className="mt-14 grid gap-6 md:grid-cols-3">
           {testimonials.map((t) => (
             <figure key={t.name} className="flex flex-col rounded-3xl border border-border bg-card p-8 shadow-sm">

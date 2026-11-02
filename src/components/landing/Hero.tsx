@@ -1,5 +1,5 @@
 import { Lock, ShieldCheck, Star } from "lucide-react";
-import martha from "@/assets/martha.jpg";
+import marthaAsset from "@/assets/martha-real.jpg.asset.json";
 import { OFFER } from "@/lib/offer";
 import { CtaButton, PriceLine } from "./CtaButton";
 
@@ -56,7 +56,7 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-lg lg:max-w-none">
           <div className="absolute -inset-4 -z-0 rounded-[2.5rem] bg-sage-soft" aria-hidden />
           <img
-            src={martha}
+            src={marthaAsset.url}
             alt="Martha, a smiling grandmother and gentle sleep guide, in her sunlit living room"
             width={1024}
             height={1280}
