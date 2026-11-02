@@ -6,7 +6,7 @@ import { Faq, Footer, Guarantee, OfferBox, StickyMobileCta } from "@/components/
 
 const title = "The Peaceful Nights Blueprint — Gentle Baby Sleep Guide for $9.90";
 const description =
-  "Help your baby sleep through the night without crying it out. Martha's gentle, step-by-step e-book for babies 0–12 months. Instant download, 30-day money-back guarantee.";
+  "Help your baby sleep through the night without crying it out. Martha’s Gentle Sleep's, step-by-step e-book for babies 0–12 months. Instant download, 30-day money-back guarantee.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

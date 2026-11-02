@@ -1,33 +1,13 @@
-import { Bed, CloudMoon, Link2Off, Milk, Waves, Star } from "lucide-react";
+import { Bed, CloudMoon, Milk, Moon, Sun, Star } from "lucide-react";
 import { CtaButton } from "./CtaButton";
 import { SectionHeading } from "./SectionHeading";
 
 const modules = [
-  {
-    icon: CloudMoon,
-    title: "Decoding Night Wakings",
-    text: "Understand exactly why your baby wakes — hunger, habit, or development — and how to respond to each one calmly.",
-  },
-  {
-    icon: Milk,
-    title: "Gentle Night-Weaning Roadmap",
-    text: "A slow, loving plan to reduce night feeds when your baby is ready — without tears or sudden changes.",
-  },
-  {
-    icon: Link2Off,
-    title: "Breaking Sleep Associations",
-    text: "Softly transition away from rocking, nursing, or bouncing to sleep, so your baby can settle on their own.",
-  },
-  {
-    icon: Bed,
-    title: "The 4-Step Crib Transition",
-    text: "Martha’s signature method for moving from arms to crib — so laying them down no longer wakes them up.",
-  },
-  {
-    icon: Waves,
-    title: "Surviving Regressions",
-    text: "What to expect at 4, 8, and 12 months, and how to protect your progress when sleep suddenly falls apart.",
-  },
+  { icon: CloudMoon, title: "Infant Sleep Architecture & Wake Windows", text: "Understanding sleep cycles, age-appropriate wake windows from 0 to 12 months, and catching sleep cues before the crying starts." },
+  { icon: Sun, title: "Strategic Daytime Naps", text: "Setting the ideal nap environment, morning rituals, and gentle techniques to extend short 30-minute naps." },
+  { icon: Moon, title: "Peaceful Bedtime Preparation", text: "Calming evening routines, reducing sensory stimulation, and establishing safe sleep standards." },
+  { icon: Bed, title: "The 4-Step Gentle Crib Transition", text: "Moving away from constant rocking or nursing-to-sleep and building crib acceptance step-by-step without tears." },
+  { icon: Milk, title: "Ending Night Wakings & Night Weaning", text: "Differentiating true hunger from comfort sucking, using a gentle comfort ladder, and reducing night feedings gradually." },
 ];
 
 const testimonials = [
@@ -57,7 +37,7 @@ export function Inside() {
       <div className="mx-auto max-w-7xl px-5 py-20 sm:px-8 md:py-24">
         <SectionHeading
           eyebrow="What you’ll discover inside"
-          title="Five gentle chapters to calmer, longer nights"
+          title="The 5 core pillars inside the e-book"
           subtitle="Each chapter is short, practical, and written to be read with one hand while holding a baby."
         />
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -73,7 +53,7 @@ export function Inside() {
                 <Icon className="size-7" />
               </div>
               <p className="relative text-xs font-bold uppercase tracking-widest text-primary">
-                Chapter {i + 1}
+                Pillar {i + 1}
               </p>
               <h3 className="relative mt-2 text-xl font-bold">{title}</h3>
               <p className="relative mt-3 leading-relaxed text-muted-foreground">{text}</p>
