@@ -59,13 +59,6 @@ export function Inside() {
               <p className="relative mt-3 leading-relaxed text-muted-foreground">{text}</p>
             </div>
           ))}
-          <div className="flex flex-col justify-center rounded-3xl border-2 border-dashed border-primary/30 p-8 text-center">
-            <p className="text-lg font-bold">Plus 2 free bonus guides</p>
-            <p className="mt-2 text-muted-foreground">
-              Included today with your copy at no extra cost.
-            </p>
-            <CtaButton className="mt-6 sm:w-full" label="Claim My Copy" />
-          </div>
         </div>
       </div>
     </section>
