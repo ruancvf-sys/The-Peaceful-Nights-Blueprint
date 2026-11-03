@@ -7,8 +7,6 @@ import { SectionHeading } from "./SectionHeading";
 
 const included = [
   { item: `${OFFER.productName} (complete e-book)`, value: 37 },
-  { item: "Bonus #1: Printable Bedtime Routine Planner", value: 5 },
-  { item: "Bonus #2: The Nap Schedule Cheat Sheet (0–12 months)", value: 5 },
   { item: "Lifetime access & free future updates", value: 0 },
 ];
 
@@ -187,7 +185,7 @@ export function StickyMobileCta() {
           <p className="text-xl font-extrabold text-primary-bright">{formatUSD(OFFER.price)}</p>
         </div>
         <a
-          href="#offer"
+          href={OFFER.checkoutUrl}
           className="flex h-12 flex-1 items-center justify-center rounded-xl bg-primary font-bold text-primary-foreground shadow-glow transition-colors hover:bg-primary-hover"
         >
           Get Instant Access
