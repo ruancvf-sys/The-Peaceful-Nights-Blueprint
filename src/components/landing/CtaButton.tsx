@@ -10,7 +10,7 @@ type Props = {
   label?: string;
 };
 
-export function CtaButton({ className, glow = false, href = "#offer", label }: Props) {
+export function CtaButton({ className, glow = false, href = OFFER.checkoutUrl, label }: Props) {
   return (
     <Button asChild variant={glow ? "glow" : "cta"} size="xl" className={cn("w-full sm:w-auto", className)}>
       <a href={href}>
