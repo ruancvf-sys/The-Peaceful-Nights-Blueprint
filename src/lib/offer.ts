@@ -6,8 +6,7 @@ export const OFFER = {
   guaranteeDays: 30,
   mothersHelped: 8400,
   supportEmail: "support@peacefulnightsblueprint.com",
-  // Replace with the real checkout link (Stripe, Gumroad, Hotmart, etc.).
-  checkoutUrl: "#offer",
+  checkoutUrl: "https://buy.stripe.com/test_aFaaEX5uUh1L6MUfX07bW00",
 } as const;
 
 export function formatUSD(value: number): string {
