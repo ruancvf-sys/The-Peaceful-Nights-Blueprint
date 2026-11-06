@@ -6,7 +6,7 @@ export const OFFER = {
   guaranteeDays: 30,
   mothersHelped: 8400,
   supportEmail: "support@peacefulnightsblueprint.com",
-  checkoutUrl: "https://buy.stripe.com/test_aFaaEX5uUh1L6MUfX07bW00",
+  checkoutUrl: "https://buy.stripe.com/bJe8wOh1X7dEb0T8Hq3wQ00",
 } as const;
 
 export function formatUSD(value: number): string {
